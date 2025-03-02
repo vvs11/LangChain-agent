@@ -33,6 +33,10 @@ Follow these steps to run the agent:
 
     ```
     python langchain_agent.py
+
+    python flight_search.py
+
+    python flight_search_advanced.py
     ```
 
 6. Every file has a prompt for which it works. Search for 'user_query' in the file to get the prompt
