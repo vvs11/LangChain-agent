@@ -14,6 +14,7 @@ Follow these steps to run the agent:
     ```
     OPENAI_API_KEY=YOUR_OPENAI_KEY
     ```
+    Make sure to add your Open API Key in the file
 
 4. Install Dependencies 
 
@@ -33,3 +34,6 @@ Follow these steps to run the agent:
     ```
     python langchain_agent.py
     ```
+
+6. Every file has a prompt for which it works. Search for 'user_query' in the file to get the prompt
+7. By default the browsers are headless. If you want to see the browser perform the actions, search for 'headless' and set to 'True'
